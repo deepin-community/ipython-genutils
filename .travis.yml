@@ -1,0 +1,18 @@
+language: python
+python:
+    - "nightly"
+    - 3.4
+    - 3.3
+    - 2.7
+sudo: false
+env:
+install:
+    - pip install -e . coveralls
+script:
+    - nosetests --with-coverage --cover-package=ipython_genutils ipython_genutils
+
+after_success:
+    - coveralls
+matrix:
+    allow_failures:
+        - python: "nightly"

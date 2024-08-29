@@ -2,10 +2,11 @@ Source: ipython-genutils
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Julien Puydt <jpuydt@debian.org>
 Section: python
+Testsuite: autopkgtest-pkg-python
 Priority: optional
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://github.com/ipython/ipython_genutils
-Build-Depends: bc, debhelper-compat (= 13), dh-python, python3-all, python3-nose
+Build-Depends: bc, debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-nose
 Vcs-Git: https://salsa.debian.org/python-team/packages/ipython-genutils.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/ipython-genutils
 Rules-Requires-Root: no

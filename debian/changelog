@@ -1,3 +1,15 @@
+ipython-genutils (0.2.0-6) unstable; urgency=medium
+
+  * Team upload.
+  * Python3.12: s/assert_equals/assert_equal/
+    Closes: #1058147
+  * Standards-Version: 4.6.2 (routine-update)
+  * Testsuite: autopkgtest-pkg-python (routine-update)
+  * Build-Depends: s/dh-python/dh-sequence-python3/ (routine-update)
+  * Add salsa-ci file (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Mon, 15 Jan 2024 14:08:34 +0100
+
 ipython-genutils (0.2.0-5) unstable; urgency=medium
 
   [ Julien Puydt ]

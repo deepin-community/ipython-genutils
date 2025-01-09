@@ -6,7 +6,13 @@ Testsuite: autopkgtest-pkg-python
 Priority: optional
 Standards-Version: 4.6.2
 Homepage: https://github.com/ipython/ipython_genutils
-Build-Depends: bc, debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-nose
+Build-Depends:
+ bc,
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ python3-all,
+ python3-pytest,
+ python3-setuptools,
 Vcs-Git: https://salsa.debian.org/python-team/packages/ipython-genutils.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/ipython-genutils
 Rules-Requires-Root: no
@@ -19,5 +25,3 @@ Description: IPython vestigial utilities for Python 3
  Contains some utilities shared by the IPython and Jupyter projects.
  .
  No new code should be written against those utilities.
- .
- This package installs the library for Python 3.

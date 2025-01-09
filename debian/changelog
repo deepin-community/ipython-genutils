@@ -1,3 +1,11 @@
+ipython-genutils (0.2.0-7) unstable; urgency=medium
+
+  * Team upload.
+  * Add dependency on python3-setuptools (Closes: #1080929)
+  * Remove dependency on python3-nose (Closes: #1018378)
+
+ -- Alexandre Detiste <tchet@debian.org>  Fri, 13 Sep 2024 23:06:35 +0200
+
 ipython-genutils (0.2.0-6) unstable; urgency=medium
 
   * Team upload.
